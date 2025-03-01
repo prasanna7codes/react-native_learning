@@ -1,7 +1,8 @@
 import React from 'react';
-import { StyleSheet,Text, SafeAreaView, ScrollView} from 'react-native';
+import { SafeAreaView, ScrollView} from 'react-native';
 import FlatCards from './components/FlatCards';
 import ElevatedCards from './ElevatedCards';
+import FancyCard from './FancyCard';
 
 const LearningStyling = () => {
     return (
@@ -9,6 +10,9 @@ const LearningStyling = () => {
             <ScrollView>
                 <FlatCards/>
                 <ElevatedCards/>
+                <FancyCard/>
+                <FancyCard/>
+
 
              </ScrollView>
         </SafeAreaView>
@@ -16,6 +20,6 @@ const LearningStyling = () => {
     );
 }
 
-const styles = StyleSheet.create({})
+//const styles = StyleSheet.create({})
 
 export default LearningStyling;
