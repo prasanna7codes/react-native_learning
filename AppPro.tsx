@@ -9,7 +9,7 @@ import{
 
 function AppPro(): JSX.Element{
     const isDarkMode = useColorScheme() === 'dark';
-    
+
     return(
         <View style={styles.container}>
         <Text style={isDarkMode ? styles.whitetext : styles.darktext}>Hello again here</Text>
