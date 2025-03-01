@@ -13,8 +13,8 @@ function App(){
  return (
   <SafeAreaView>
      <View>
-      <Text>Hello World!</Text>
-      <Text>Hello World!</Text>
+      <Text>Hello World! by me</Text>
+      <Text>Hello World! again</Text>
       <Text>Hello World!</Text>
       <Button
           title="Press me"
