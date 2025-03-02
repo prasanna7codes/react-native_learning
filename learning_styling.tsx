@@ -1,9 +1,10 @@
 import React from 'react';
 import { SafeAreaView, ScrollView} from 'react-native';
 import FlatCards from './components/FlatCards';
-import ElevatedCards from './ElevatedCards';
-import FancyCard from './FancyCard';
-import Actioncard from './Actioncard';
+import ElevatedCards from './components/ElevatedCards';
+import FancyCard from './components/FancyCard';
+import Actioncard from './components/Actioncard';
+import ContactList from './components/ContactList';
 
 const LearningStyling = () => {
     return (
@@ -13,6 +14,7 @@ const LearningStyling = () => {
                 <ElevatedCards/>
                 <FancyCard/>
                 <Actioncard/>
+                <ContactList/>
 
 
              </ScrollView>
