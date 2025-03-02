@@ -47,14 +47,57 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         margin: 20
     },
-    card: {},
-    elevatedCrad: { },
-    headingContainer: {},
-    headerText: {},
+    card: {
+        borderRadius: 10,
+        backgroundColor: '#cef5f2',
+        margin: 20,
+    
+        height: 350,
+        marginLeft: 20,
+    },
+    elevatedCrad: {
+        elevation: 10,
+        shadowColor: '',
+        shadowOffset: {width: 0, height: 2},
+        shadowOpacity: 0.25,
+     },
+
+
+    headingContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 40,
+    },
+
+
+
+
+    headerText: {
+        color: 'green',
+        fontWeight: 'bold', 
+        
+    },
     cardImage: {
         height: 100,
+        borderRadius: 10,
+        margin: 10
     },
-    bodyContainer: {},
-    fotterContainer: {},
-    socialLinks: {}
+    bodyContainer: {
+        padding: 10
+    },
+    fotterContainer: {
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center',
+    },
+    socialLinks: {
+        fontSize: 20,
+        color: 'white',
+        backgroundColor: 'black',
+        padding: 5,
+        borderRadius: 5
+
+        
+    }
 })
